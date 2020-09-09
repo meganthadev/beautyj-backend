@@ -1,0 +1,7 @@
+Product Model
+has_many :details
+:name - string, :image_url - string, :rating - integer (0-5)
+
+Details Model
+belongs_to :product
+:product_id - integer, :description - text, :ingredients - string, :full_review - text
