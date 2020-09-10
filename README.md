@@ -1,9 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to SincerelyBeauty! An app to track, log, rate, and review beauty products!
 
-Things you may want to cover:
+Use:   RUBYOPT=-W:no-deprecated rails c   --> To enter irb without deprecation warnings.
+
 
 * Ruby version
 
