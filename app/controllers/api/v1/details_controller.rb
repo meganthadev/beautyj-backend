@@ -10,11 +10,9 @@ class Api::V1::DetailsController < ApplicationController
           render json: @detail
         end 
         
-        def create 
-            @detail = @product.detail.new(detail_params)
-        end 
-      
-        def update 
+        def update
+            @detail = @product.details.find_by(id: params[:id])
+             render json: @detail
         end 
         
         
