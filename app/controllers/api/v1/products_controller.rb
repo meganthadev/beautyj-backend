@@ -1,6 +1,6 @@
 class Api::V1::ProductsController < ApplicationController
 
-def index 
+def index
     @products = Product.all 
     render json: @products
 end 
@@ -15,7 +15,7 @@ def create
 end 
 
 def show 
-    @products = Product.find(params[:id])
+    @product = Product.find(params[:id])
     render json: @product
 end 
 
