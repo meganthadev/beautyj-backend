@@ -4,14 +4,13 @@ class Api::V1::DetailsController < ApplicationController
 
     class Api::V1::DetailsController < ApplicationController
 
-             
-        def show 
-          @detail = @product.details.find_by(id: params[:id])
-          render json: @detail
+        def index 
+            @detail = @product.detail
+            render json: @detail
         end 
         
         def update
-            @detail = @product.details.find_by(id: params[:id])
+            @detail = @product.detail
              render json: @detail
         end 
         
