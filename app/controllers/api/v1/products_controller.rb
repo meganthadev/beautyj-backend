@@ -5,7 +5,7 @@ def index
     render json: @products
 end 
 
-def create 
+def create
     @product = Product.new(product_params)
     if @product.save 
         render json: @product
