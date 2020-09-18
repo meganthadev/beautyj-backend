@@ -22,7 +22,14 @@ end
 def destroy 
     @product = Product.find(params[:id])
     @product.destroy
-end 
+end
+
+def update
+      @product = Product.find(params[:id])
+      @product.update(name: params["product"]["name"])
+      @product.save
+      render json: @product
+ end
 
 
 
