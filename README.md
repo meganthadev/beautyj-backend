@@ -1,4 +1,4 @@
-# Beauty Junkie Frontend README
+# Beauty Junkie Backend README
 
 ## Welcome to Beauty Junkie ! An app to track, log, rate, and review beauty products!  For those of us who could maybe slightly just a little bit.. be considered beauty junkies!
 
@@ -8,6 +8,8 @@
 ### Installation/Start-Up Instructions:
 
 #### Frontend :
+
+Run 'git clone git@github.com:meganthadev/beautyj-backend.git' Run npm start to activate frontend and view index.js in browser (with rails server running).
 
 Use:   RUBYOPT=-W:no-deprecated rails c   --> To enter irb without deprecation warnings.
 
