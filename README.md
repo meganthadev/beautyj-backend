@@ -1,4 +1,4 @@
-# README
+# Beauty Junkie Frontend README
 
 Welcome to SincerelyBeauty! An app to track, log, rate, and review beauty products!
 
