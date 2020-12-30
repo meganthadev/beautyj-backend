@@ -5,6 +5,10 @@
 ### Features
 - Users of this app can create, view, or edit beauty care product pages which hold a five star review system.
 
+### Installation/Start-Up Instructions:
+
+#### Frontend :
+
 Use:   RUBYOPT=-W:no-deprecated rails c   --> To enter irb without deprecation warnings.
 
 
